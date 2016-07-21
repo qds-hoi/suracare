@@ -1,0 +1,6 @@
+framework module Pods_suracareTests {
+  umbrella header "Pods-suracareTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

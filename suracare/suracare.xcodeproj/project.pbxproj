@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */; };
+		39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */; };
+		6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */; };
+		A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D6E91D409E8700D682BC /* AppDelegate.swift */; };
+		A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A288D6ED1D409E8700D682BC /* Main.storyboard */; };
+		A288D6F21D409E8700D682BC /* suracare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A288D6F01D409E8700D682BC /* suracare.xcdatamodeld */; };
+		A288D6F41D409E8700D682BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A288D6F31D409E8700D682BC /* Assets.xcassets */; };
+		A288D6F71D409E8700D682BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A288D6F51D409E8700D682BC /* LaunchScreen.storyboard */; };
+		A288D7021D409E8700D682BC /* suracareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7011D409E8700D682BC /* suracareTests.swift */; };
+		A288D70D1D409E8700D682BC /* suracareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D70C1D409E8700D682BC /* suracareUITests.swift */; };
+		A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7211D40A02600D682BC /* rSAppModel.swift */; };
+		A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7231D40AA1400D682BC /* rSConstant.swift */; };
+		A288D7271D40B7B700D682BC /* rSContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7261D40B7B700D682BC /* rSContainerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A288D6FE1D409E8700D682BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A288D6DE1D409E8700D682BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A288D6E51D409E8700D682BC;
+			remoteInfo = suracare;
+		};
+		A288D7091D409E8700D682BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A288D6DE1D409E8700D682BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A288D6E51D409E8700D682BC;
+			remoteInfo = suracare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_suracareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_suracareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_suracare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BFBC8BFE88501640551911 /* Pods-suracare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracare.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracare/Pods-suracare.release.xcconfig"; sourceTree = "<group>"; };
+		283AA96F64073AB4A5EAA306 /* Pods-suracare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracare/Pods-suracare.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A288D6E61D409E8700D682BC /* suracare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suracare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A288D6E91D409E8700D682BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A288D6EE1D409E8700D682BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A288D6F11D409E8700D682BC /* suracare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = suracare.xcdatamodel; sourceTree = "<group>"; };
+		A288D6F31D409E8700D682BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A288D6F61D409E8700D682BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A288D6F81D409E8700D682BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A288D6FD1D409E8700D682BC /* suracareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suracareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A288D7011D409E8700D682BC /* suracareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suracareTests.swift; sourceTree = "<group>"; };
+		A288D7031D409E8700D682BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A288D7081D409E8700D682BC /* suracareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suracareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A288D70C1D409E8700D682BC /* suracareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suracareUITests.swift; sourceTree = "<group>"; };
+		A288D70E1D409E8700D682BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A288D7211D40A02600D682BC /* rSAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSAppModel.swift; sourceTree = "<group>"; };
+		A288D7231D40AA1400D682BC /* rSConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSConstant.swift; sourceTree = "<group>"; };
+		A288D7261D40B7B700D682BC /* rSContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSContainerViewController.swift; sourceTree = "<group>"; };
+		E9B07824614A328D1F0ABC44 /* Pods-suracareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A288D6E31D409E8700D682BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D6FA1D409E8700D682BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D7051D409E8700D682BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E44AEFAEE60C31652415AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */,
+				0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */,
+				15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08BAFD90B3CC117B32F17D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283AA96F64073AB4A5EAA306 /* Pods-suracare.debug.xcconfig */,
+				24BFBC8BFE88501640551911 /* Pods-suracare.release.xcconfig */,
+				E9B07824614A328D1F0ABC44 /* Pods-suracareTests.debug.xcconfig */,
+				6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */,
+				3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */,
+				66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A288D6DD1D409E8700D682BC = {
+			isa = PBXGroup;
+			children = (
+				A288D6E81D409E8700D682BC /* suracare */,
+				A288D7001D409E8700D682BC /* suracareTests */,
+				A288D70B1D409E8700D682BC /* suracareUITests */,
+				A288D6E71D409E8700D682BC /* Products */,
+				A08BAFD90B3CC117B32F17D1 /* Pods */,
+				9E44AEFAEE60C31652415AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A288D6E71D409E8700D682BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A288D6E61D409E8700D682BC /* suracare.app */,
+				A288D6FD1D409E8700D682BC /* suracareTests.xctest */,
+				A288D7081D409E8700D682BC /* suracareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A288D6E81D409E8700D682BC /* suracare */ = {
+			isa = PBXGroup;
+			children = (
+				A288D6E91D409E8700D682BC /* AppDelegate.swift */,
+				A288D71B1D409F4A00D682BC /* App */,
+				A288D71A1D409EF300D682BC /* Storyboard */,
+				A288D6F81D409E8700D682BC /* Info.plist */,
+				A288D6F01D409E8700D682BC /* suracare.xcdatamodeld */,
+			);
+			path = suracare;
+			sourceTree = "<group>";
+		};
+		A288D7001D409E8700D682BC /* suracareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A288D7011D409E8700D682BC /* suracareTests.swift */,
+				A288D7031D409E8700D682BC /* Info.plist */,
+			);
+			path = suracareTests;
+			sourceTree = "<group>";
+		};
+		A288D70B1D409E8700D682BC /* suracareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A288D70C1D409E8700D682BC /* suracareUITests.swift */,
+				A288D70E1D409E8700D682BC /* Info.plist */,
+			);
+			path = suracareUITests;
+			sourceTree = "<group>";
+		};
+		A288D71A1D409EF300D682BC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A288D6F31D409E8700D682BC /* Assets.xcassets */,
+				A288D6ED1D409E8700D682BC /* Main.storyboard */,
+				A288D6F51D409E8700D682BC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		A288D71B1D409F4A00D682BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A288D71C1D409F4A00D682BC /* Helpers */,
+				A288D71D1D409F4A00D682BC /* Model */,
+				A288D71F1D409F4A00D682BC /* ModelView */,
+				A288D7201D409F4A00D682BC /* View */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A288D71C1D409F4A00D682BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A288D7231D40AA1400D682BC /* rSConstant.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A288D71D1D409F4A00D682BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A288D71E1D409F4A00D682BC /* Users */,
+				A288D7211D40A02600D682BC /* rSAppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A288D71E1D409F4A00D682BC /* Users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		A288D71F1D409F4A00D682BC /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				A288D7251D40B7A000D682BC /* ContainerViewController */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		A288D7201D409F4A00D682BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A288D7251D40B7A000D682BC /* ContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A288D7261D40B7B700D682BC /* rSContainerViewController.swift */,
+			);
+			path = ContainerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A288D6E51D409E8700D682BC /* suracare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A288D7111D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracare" */;
+			buildPhases = (
+				A3F00CD67DF9FD69FCF3C844 /* [CP] Check Pods Manifest.lock */,
+				A288D6E21D409E8700D682BC /* Sources */,
+				A288D6E31D409E8700D682BC /* Frameworks */,
+				A288D6E41D409E8700D682BC /* Resources */,
+				BE15721D3FA4896B964B3CAD /* [CP] Embed Pods Frameworks */,
+				5A8C0B9B07E4FA8CAC7F365A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suracare;
+			productName = suracare;
+			productReference = A288D6E61D409E8700D682BC /* suracare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A288D6FC1D409E8700D682BC /* suracareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A288D7141D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracareTests" */;
+			buildPhases = (
+				74AEAD767BA384279192F65F /* [CP] Check Pods Manifest.lock */,
+				A288D6F91D409E8700D682BC /* Sources */,
+				A288D6FA1D409E8700D682BC /* Frameworks */,
+				A288D6FB1D409E8700D682BC /* Resources */,
+				47AB930838738CFA49CCCC3B /* [CP] Embed Pods Frameworks */,
+				EB9FFDBE2F604532A4119C96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A288D6FF1D409E8700D682BC /* PBXTargetDependency */,
+			);
+			name = suracareTests;
+			productName = suracareTests;
+			productReference = A288D6FD1D409E8700D682BC /* suracareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A288D7071D409E8700D682BC /* suracareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A288D7171D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracareUITests" */;
+			buildPhases = (
+				10A731E17D50C2B7497E2ACA /* [CP] Check Pods Manifest.lock */,
+				A288D7041D409E8700D682BC /* Sources */,
+				A288D7051D409E8700D682BC /* Frameworks */,
+				A288D7061D409E8700D682BC /* Resources */,
+				00AB1A8D97CB40D26C934C1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A288D70A1D409E8700D682BC /* PBXTargetDependency */,
+			);
+			name = suracareUITests;
+			productName = suracareUITests;
+			productReference = A288D7081D409E8700D682BC /* suracareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A288D6DE1D409E8700D682BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sugar Rain";
+				TargetAttributes = {
+					A288D6E51D409E8700D682BC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A288D6FC1D409E8700D682BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A288D6E51D409E8700D682BC;
+					};
+					A288D7071D409E8700D682BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A288D6E51D409E8700D682BC;
+					};
+				};
+			};
+			buildConfigurationList = A288D6E11D409E8700D682BC /* Build configuration list for PBXProject "suracare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A288D6DD1D409E8700D682BC;
+			productRefGroup = A288D6E71D409E8700D682BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A288D6E51D409E8700D682BC /* suracare */,
+				A288D6FC1D409E8700D682BC /* suracareTests */,
+				A288D7071D409E8700D682BC /* suracareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A288D6E41D409E8700D682BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A288D6F71D409E8700D682BC /* LaunchScreen.storyboard in Resources */,
+				A288D6F41D409E8700D682BC /* Assets.xcassets in Resources */,
+				A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D6FB1D409E8700D682BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D7061D409E8700D682BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00AB1A8D97CB40D26C934C1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10A731E17D50C2B7497E2ACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47AB930838738CFA49CCCC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8C0B9B07E4FA8CAC7F365A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suracare/Pods-suracare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74AEAD767BA384279192F65F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F00CD67DF9FD69FCF3C844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE15721D3FA4896B964B3CAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suracare/Pods-suracare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9FFDBE2F604532A4119C96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A288D6E21D409E8700D682BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
+				A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */,
+				A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */,
+				A288D7271D40B7B700D682BC /* rSContainerViewController.swift in Sources */,
+				A288D6F21D409E8700D682BC /* suracare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D6F91D409E8700D682BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A288D7021D409E8700D682BC /* suracareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A288D7041D409E8700D682BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A288D70D1D409E8700D682BC /* suracareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A288D6FF1D409E8700D682BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A288D6E51D409E8700D682BC /* suracare */;
+			targetProxy = A288D6FE1D409E8700D682BC /* PBXContainerItemProxy */;
+		};
+		A288D70A1D409E8700D682BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A288D6E51D409E8700D682BC /* suracare */;
+			targetProxy = A288D7091D409E8700D682BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A288D6ED1D409E8700D682BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A288D6EE1D409E8700D682BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A288D6F51D409E8700D682BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A288D6F61D409E8700D682BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A288D70F1D409E8700D682BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A288D7101D409E8700D682BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A288D7121D409E8700D682BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283AA96F64073AB4A5EAA306 /* Pods-suracare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = suracare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A288D7131D409E8700D682BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BFBC8BFE88501640551911 /* Pods-suracare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = suracare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A288D7151D409E8700D682BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B07824614A328D1F0ABC44 /* Pods-suracareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = suracareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suracare.app/suracare";
+			};
+			name = Debug;
+		};
+		A288D7161D409E8700D682BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = suracareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suracare.app/suracare";
+			};
+			name = Release;
+		};
+		A288D7181D409E8700D682BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = suracareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = suracare;
+			};
+			name = Debug;
+		};
+		A288D7191D409E8700D682BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = suracareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sugarrain.suracareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = suracare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A288D6E11D409E8700D682BC /* Build configuration list for PBXProject "suracare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A288D70F1D409E8700D682BC /* Debug */,
+				A288D7101D409E8700D682BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A288D7111D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A288D7121D409E8700D682BC /* Debug */,
+				A288D7131D409E8700D682BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A288D7141D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A288D7151D409E8700D682BC /* Debug */,
+				A288D7161D409E8700D682BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A288D7171D409E8700D682BC /* Build configuration list for PBXNativeTarget "suracareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A288D7181D409E8700D682BC /* Debug */,
+				A288D7191D409E8700D682BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A288D6F01D409E8700D682BC /* suracare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A288D6F11D409E8700D682BC /* suracare.xcdatamodel */,
+			);
+			currentVersion = A288D6F11D409E8700D682BC /* suracare.xcdatamodel */;
+			path = suracare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A288D6DE1D409E8700D682BC /* Project object */;
+}
