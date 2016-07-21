@@ -7,6 +7,7 @@ target 'suracare' do
 
   # Pods for suracare
   pod 'Firebase'
+  pod 'Firebase/Database'
   pod 'ReactiveCocoa'
   target 'suracareTests' do
     inherit! :search_paths

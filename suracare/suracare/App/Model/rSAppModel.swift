@@ -9,7 +9,7 @@
 import Foundation
 import Firebase
 
-class rSAppModel {
+class rSAppModel: NSObject {
     
     
     

@@ -10,6 +10,7 @@
 		2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */; };
 		39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */; };
 		6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */; };
+		A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B76F01D40C71900900AC6 /* rSUserModel.swift */; };
 		A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D6E91D409E8700D682BC /* AppDelegate.swift */; };
 		A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A288D6ED1D409E8700D682BC /* Main.storyboard */; };
 		A288D6F21D409E8700D682BC /* suracare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A288D6F01D409E8700D682BC /* suracare.xcdatamodeld */; };
@@ -48,6 +49,7 @@
 		3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A26B76F01D40C71900900AC6 /* rSUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSUserModel.swift; sourceTree = "<group>"; };
 		A288D6E61D409E8700D682BC /* suracare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suracare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A288D6E91D409E8700D682BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A288D6EE1D409E8700D682BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		A288D71E1D409F4A00D682BC /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				A26B76F01D40C71900900AC6 /* rSUserModel.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
+				A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */,
 				A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */,
 				A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */,
 				A288D7271D40B7B700D682BC /* rSContainerViewController.swift in Sources */,
