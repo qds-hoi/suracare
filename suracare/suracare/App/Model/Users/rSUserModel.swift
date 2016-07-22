@@ -10,9 +10,10 @@ import Foundation
 import ReactiveCocoa
 
 class rSUserModel : rSAppModel {
-    var name: ConstantProperty<String>
+//    var name: ConstantProperty<String>
     
     override init() {
-        name = ""
+        super.init()
+        
     }
 }
