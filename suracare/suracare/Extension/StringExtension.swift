@@ -13,4 +13,10 @@ extension String {
     static func className(aClass: AnyClass) -> String {
         return NSStringFromClass(aClass).componentsSeparatedByString(".").last!
     }
+    
+    var length: Int {
+        return self.characters.count
+    }
+    
+    
 }

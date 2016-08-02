@@ -16,13 +16,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fPQ-dv-FBb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fPQ-dv-FBb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HQo-BF-OrY"/>
+                            <constraint firstAttribute="trailing" secondItem="fPQ-dv-FBb" secondAttribute="trailing" id="Oza-hX-sBy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fPQ-dv-FBb" secondAttribute="bottom" id="PNS-5B-FK3"/>
+                            <constraint firstItem="fPQ-dv-FBb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="a3r-hY-Tb5"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tripTableView" destination="fPQ-dv-FBb" id="arz-oc-QeI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <customObject id="hXE-cO-Coz"/>
             </objects>
+            <point key="canvasLocation" x="519" y="453"/>
         </scene>
     </scenes>
 </document>

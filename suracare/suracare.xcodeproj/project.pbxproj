@@ -10,6 +10,9 @@
 		2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */; };
 		39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */; };
 		6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */; };
+		A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21233271D47522800265BE1 /* rSBaseViewModel.swift */; };
+		A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */; };
+		A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */; };
 		A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B76F01D40C71900900AC6 /* rSUserModel.swift */; };
 		A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D6E91D409E8700D682BC /* AppDelegate.swift */; };
 		A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A288D6ED1D409E8700D682BC /* Main.storyboard */; };
@@ -20,13 +23,22 @@
 		A288D70D1D409E8700D682BC /* suracareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D70C1D409E8700D682BC /* suracareUITests.swift */; };
 		A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7211D40A02600D682BC /* rSAppModel.swift */; };
 		A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7231D40AA1400D682BC /* rSConstant.swift */; };
-		A288D7271D40B7B700D682BC /* rSContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D7261D40B7B700D682BC /* rSContainerViewController.swift */; };
 		A2B3CBC21D41F2D80078B63A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBC11D41F2D80078B63A /* UIColorExtension.swift */; };
 		A2B3CBC91D41FEA90078B63A /* rSViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBC81D41FEA90078B63A /* rSViewModelProtocol.swift */; };
 		A2B3CBCB1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBCA1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift */; };
 		A2B3CBCD1D4200390078B63A /* rSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBCC1D4200390078B63A /* rSBaseViewController.swift */; };
 		A2B3CBCF1D42004B0078B63A /* rSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBCE1D42004B0078B63A /* rSBaseTableViewCell.swift */; };
 		A2B3CBD11D4200DF0078B63A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B3CBD01D4200DF0078B63A /* StringExtension.swift */; };
+		A2C6F9221D489CA800B430C5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9211D489CA800B430C5 /* Trip.swift */; };
+		A2C6F9261D489DC800B430C5 /* rSContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9251D489DC800B430C5 /* rSContainerViewController.swift */; };
+		A2C6F9281D489E0A00B430C5 /* TripViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9271D489E0A00B430C5 /* TripViewViewModel.swift */; };
+		A2C6F92C1D48A03700B430C5 /* rSTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F92A1D48A03700B430C5 /* rSTripTableViewCell.swift */; };
+		A2C6F92D1D48A03700B430C5 /* rSTripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */; };
+		A2C6F9321D48A0D400B430C5 /* TripPresentationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */; };
+		A2E88E111D470DEA000B8E0D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */; };
+		A2E88E161D471777000B8E0D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E88E151D471777000B8E0D /* SWRevealViewController.m */; };
+		A2F5DC631D49A6BE008D40A1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */; };
+		A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,9 @@
 		3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A21233271D47522800265BE1 /* rSBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseViewModel.swift; sourceTree = "<group>"; };
+		A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
+		A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentAnimationController.swift; sourceTree = "<group>"; };
 		A26B76F01D40C71900900AC6 /* rSUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSUserModel.swift; sourceTree = "<group>"; };
 		A288D6E61D409E8700D682BC /* suracare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suracare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A288D6E91D409E8700D682BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,13 +86,24 @@
 		A288D70E1D409E8700D682BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A288D7211D40A02600D682BC /* rSAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSAppModel.swift; sourceTree = "<group>"; };
 		A288D7231D40AA1400D682BC /* rSConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSConstant.swift; sourceTree = "<group>"; };
-		A288D7261D40B7B700D682BC /* rSContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSContainerViewController.swift; sourceTree = "<group>"; };
 		A2B3CBC11D41F2D80078B63A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		A2B3CBC81D41FEA90078B63A /* rSViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSViewModelProtocol.swift; sourceTree = "<group>"; };
 		A2B3CBCA1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSViewModelServicesDelegate.swift; sourceTree = "<group>"; };
 		A2B3CBCC1D4200390078B63A /* rSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseViewController.swift; sourceTree = "<group>"; };
 		A2B3CBCE1D42004B0078B63A /* rSBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseTableViewCell.swift; sourceTree = "<group>"; };
 		A2B3CBD01D4200DF0078B63A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A2C6F9211D489CA800B430C5 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		A2C6F9251D489DC800B430C5 /* rSContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSContainerViewController.swift; sourceTree = "<group>"; };
+		A2C6F9271D489E0A00B430C5 /* TripViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripViewViewModel.swift; sourceTree = "<group>"; };
+		A2C6F92A1D48A03700B430C5 /* rSTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSTripTableViewCell.swift; sourceTree = "<group>"; };
+		A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rSTripTableViewCell.xib; sourceTree = "<group>"; };
+		A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPresentationControl.swift; sourceTree = "<group>"; };
+		A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A2E88E131D471776000B8E0D /* suracare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suracare-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2E88E141D471777000B8E0D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A2E88E151D471777000B8E0D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E9B07824614A328D1F0ABC44 /* Pods-suracareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +156,15 @@
 				66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21A3DF31D4B61BE0006C669 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */,
+				A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		A288D6DD1D409E8700D682BC = {
@@ -199,10 +234,12 @@
 		A288D71B1D409F4A00D682BC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A2F5DC661D49B99B008D40A1 /* Stores */,
+				A2C6F92E1D48A08500B430C5 /* PresentationControl */,
+				A2C6F9231D489DA200B430C5 /* ViewControllers */,
 				A288D71C1D409F4A00D682BC /* Helpers */,
 				A288D71D1D409F4A00D682BC /* Model */,
 				A288D71F1D409F4A00D682BC /* ModelView */,
-				A288D7201D409F4A00D682BC /* View */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -218,6 +255,7 @@
 		A288D71D1D409F4A00D682BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2C6F9201D489C9400B430C5 /* Trips */,
 				A288D71E1D409F4A00D682BC /* Users */,
 				A288D7211D40A02600D682BC /* rSAppModel.swift */,
 			);
@@ -235,24 +273,9 @@
 		A288D71F1D409F4A00D682BC /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
-				A288D7251D40B7A000D682BC /* ContainerViewController */,
+				A2C6F9271D489E0A00B430C5 /* TripViewViewModel.swift */,
 			);
 			path = ModelView;
-			sourceTree = "<group>";
-		};
-		A288D7201D409F4A00D682BC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A288D7251D40B7A000D682BC /* ContainerViewController */ = {
-			isa = PBXGroup;
-			children = (
-				A288D7261D40B7B700D682BC /* rSContainerViewController.swift */,
-			);
-			path = ContainerViewController;
 			sourceTree = "<group>";
 		};
 		A2B3CBC01D41F17B0078B63A /* Extension */ = {
@@ -260,6 +283,9 @@
 			children = (
 				A2B3CBC11D41F2D80078B63A /* UIColorExtension.swift */,
 				A2B3CBD01D4200DF0078B63A /* StringExtension.swift */,
+				A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */,
+				A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */,
+				A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -267,6 +293,8 @@
 		A2B3CBC31D41FB000078B63A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A21A3DF31D4B61BE0006C669 /* Animation */,
+				A2E88E121D471618000B8E0D /* Library */,
 				A2B3CBC51D41FB000078B63A /* Protocols */,
 				A2B3CBC41D41FB000078B63A /* BaseViewClasses */,
 			);
@@ -278,6 +306,7 @@
 			children = (
 				A2B3CBCC1D4200390078B63A /* rSBaseViewController.swift */,
 				A2B3CBCE1D42004B0078B63A /* rSBaseTableViewCell.swift */,
+				A21233271D47522800265BE1 /* rSBaseViewModel.swift */,
 			);
 			path = BaseViewClasses;
 			sourceTree = "<group>";
@@ -289,6 +318,65 @@
 				A2B3CBCA1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A2C6F9201D489C9400B430C5 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6F9211D489CA800B430C5 /* Trip.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		A2C6F9231D489DA200B430C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6F9241D489DC800B430C5 /* ContainerViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2C6F9241D489DC800B430C5 /* ContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6F9251D489DC800B430C5 /* rSContainerViewController.swift */,
+				A2C6F9291D48A02300B430C5 /* TripTabelViewCell */,
+			);
+			path = ContainerViewController;
+			sourceTree = "<group>";
+		};
+		A2C6F9291D48A02300B430C5 /* TripTabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6F92A1D48A03700B430C5 /* rSTripTableViewCell.swift */,
+				A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */,
+			);
+			path = TripTabelViewCell;
+			sourceTree = "<group>";
+		};
+		A2C6F92E1D48A08500B430C5 /* PresentationControl */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */,
+			);
+			path = PresentationControl;
+			sourceTree = "<group>";
+		};
+		A2E88E121D471618000B8E0D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A2E88E141D471777000B8E0D /* SWRevealViewController.h */,
+				A2E88E151D471777000B8E0D /* SWRevealViewController.m */,
+				A2E88E131D471776000B8E0D /* suracare-Bridging-Header.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A2F5DC661D49B99B008D40A1 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +494,7 @@
 				A288D6F71D409E8700D682BC /* LaunchScreen.storyboard in Resources */,
 				A288D6F41D409E8700D682BC /* Assets.xcassets in Resources */,
 				A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */,
+				A2C6F92D1D48A03700B430C5 /* rSTripTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,17 +643,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B3CBCF1D42004B0078B63A /* rSBaseTableViewCell.swift in Sources */,
+				A2C6F9261D489DC800B430C5 /* rSContainerViewController.swift in Sources */,
 				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
+				A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */,
 				A2B3CBC21D41F2D80078B63A /* UIColorExtension.swift in Sources */,
+				A2C6F9281D489E0A00B430C5 /* TripViewViewModel.swift in Sources */,
+				A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */,
 				A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */,
+				A2C6F9221D489CA800B430C5 /* Trip.swift in Sources */,
 				A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */,
 				A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */,
-				A288D7271D40B7B700D682BC /* rSContainerViewController.swift in Sources */,
+				A2C6F92C1D48A03700B430C5 /* rSTripTableViewCell.swift in Sources */,
+				A2E88E161D471777000B8E0D /* SWRevealViewController.m in Sources */,
 				A2B3CBCD1D4200390078B63A /* rSBaseViewController.swift in Sources */,
 				A2B3CBD11D4200DF0078B63A /* StringExtension.swift in Sources */,
+				A2E88E111D470DEA000B8E0D /* UIViewExtension.swift in Sources */,
 				A288D6F21D409E8700D682BC /* suracare.xcdatamodeld in Sources */,
 				A2B3CBCB1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift in Sources */,
+				A2F5DC631D49A6BE008D40A1 /* NSDateExtension.swift in Sources */,
+				A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */,
+				A2C6F9321D48A0D400B430C5 /* TripPresentationControl.swift in Sources */,
 				A2B3CBC91D41FEA90078B63A /* rSViewModelProtocol.swift in Sources */,
+				A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,10 +809,13 @@
 			baseConfigurationReference = 283AA96F64073AB4A5EAA306 /* Pods-suracare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = suracare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarrain.suracare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/suracare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -721,10 +824,12 @@
 			baseConfigurationReference = 24BFBC8BFE88501640551911 /* Pods-suracare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = suracare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarrain.suracare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/suracare-Bridging-Header.h";
 			};
 			name = Release;
 		};

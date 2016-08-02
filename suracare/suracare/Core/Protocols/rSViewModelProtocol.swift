@@ -9,7 +9,5 @@
 import Foundation
 
 protocol rSViewModelProtocol {
-    var services: String {
-        get
-    }
+    var services: String { get }
 }

@@ -11,7 +11,7 @@ import ReactiveCocoa
 
 class rSUserModel : rSAppModel {
 //    var name: ConstantProperty<String>
-    
+
     override init() {
         super.init()
         
