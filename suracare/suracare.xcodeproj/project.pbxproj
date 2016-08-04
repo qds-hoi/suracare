@@ -10,6 +10,7 @@
 		2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */; };
 		39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */; };
 		6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */; };
+		A2066B831D5312FF005344B1 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2066B821D5312FF005344B1 /* OnboardViewController.swift */; };
 		A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21233271D47522800265BE1 /* rSBaseViewModel.swift */; };
 		A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */; };
 		A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */; };
@@ -67,6 +68,7 @@
 		3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2066B821D5312FF005344B1 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
 		A21233271D47522800265BE1 /* rSBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseViewModel.swift; sourceTree = "<group>"; };
 		A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 		A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentAnimationController.swift; sourceTree = "<group>"; };
@@ -156,6 +158,14 @@
 				66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2066B811D5312EB005344B1 /* OnboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2066B821D5312FF005344B1 /* OnboardViewController.swift */,
+			);
+			path = OnboardViewController;
 			sourceTree = "<group>";
 		};
 		A21A3DF31D4B61BE0006C669 /* Animation */ = {
@@ -331,6 +341,7 @@
 		A2C6F9231D489DA200B430C5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2066B811D5312EB005344B1 /* OnboardViewController */,
 				A2C6F9241D489DC800B430C5 /* ContainerViewController */,
 			);
 			path = ViewControllers;
@@ -644,6 +655,7 @@
 			files = (
 				A2B3CBCF1D42004B0078B63A /* rSBaseTableViewCell.swift in Sources */,
 				A2C6F9261D489DC800B430C5 /* rSContainerViewController.swift in Sources */,
+				A2066B831D5312FF005344B1 /* OnboardViewController.swift in Sources */,
 				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
 				A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */,
 				A2B3CBC21D41F2D80078B63A /* UIColorExtension.swift in Sources */,
