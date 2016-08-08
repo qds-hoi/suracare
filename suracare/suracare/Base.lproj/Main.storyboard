@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Container View Controller-->
@@ -42,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="1072" y="489"/>
         </scene>
-        <!--View Controller-->
+        <!--OnboardUI View Controller-->
         <scene sceneID="WMp-kd-MCB">
             <objects>
-                <viewController id="gtu-vN-fVf" sceneMemberID="viewController">
+                <viewController id="gtu-vN-fVf" customClass="rSOnboardUIViewController" customModule="suracare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="K51-TG-ppe"/>
                         <viewControllerLayoutGuide type="bottom" id="hSG-a3-Mh0"/>
@@ -53,7 +54,21 @@
                     <view key="view" contentMode="scaleToFill" id="Ibj-kz-OcA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIp-NG-y2p" customClass="RoundRectButton" customModule="suracare" customModuleProvider="target">
+                                <rect key="frame" x="115" y="87" width="90" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JIp-NG-y2p" firstAttribute="leading" secondItem="Ibj-kz-OcA" secondAttribute="leadingMargin" constant="99" id="6It-0g-PHr"/>
+                            <constraint firstItem="JIp-NG-y2p" firstAttribute="top" secondItem="K51-TG-ppe" secondAttribute="bottom" constant="67" id="HOv-ok-n8f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JIp-NG-y2p" secondAttribute="trailing" constant="99" id="VIH-A6-cr7"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
