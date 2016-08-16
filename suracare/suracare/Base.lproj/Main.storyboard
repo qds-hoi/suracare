@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="w6m-hj-VR8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="g9Z-4J-loQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--OnboardUI View Controller-->
-        <scene sceneID="WMp-kd-MCB">
+        <!--Reveal View Controller-->
+        <scene sceneID="Y9r-D0-VvN">
             <objects>
-                <viewController storyboardIdentifier=" " id="gtu-vN-fVf" customClass="rSOnboardUIViewController" customModule="suracare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g9Z-4J-loQ" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="K51-TG-ppe"/>
-                        <viewControllerLayoutGuide type="bottom" id="hSG-a3-Mh0"/>
+                        <viewControllerLayoutGuide type="top" id="yZE-Gq-I8O"/>
+                        <viewControllerLayoutGuide type="bottom" id="urh-jY-Fmh"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ibj-kz-OcA">
+                    <view key="view" contentMode="scaleToFill" id="2LB-SE-zTq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="Ooc-hn-cPa" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="Bxv-sY-xlW"/>
+                        <segue destination="2Z3-es-XfR" kind="custom" identifier="sw_rear" id="TUY-8N-K7q"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jBx-8l-Vvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wIw-X7-F2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="523" y="926"/>
+            <point key="canvasLocation" x="712" y="791"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zgu-XW-97B">
+            <objects>
+                <viewController id="2Z3-es-XfR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZO9-2s-XGD"/>
+                        <viewControllerLayoutGuide type="bottom" id="JcX-F8-5Ug"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ocd-wp-Rmp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uPY-WD-uFJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JcX-F8-5Ug" firstAttribute="top" secondItem="uPY-WD-uFJ" secondAttribute="bottom" id="Vqc-HI-xQI"/>
+                            <constraint firstItem="uPY-WD-uFJ" firstAttribute="leading" secondItem="ocd-wp-Rmp" secondAttribute="leading" id="Xa5-Me-Oqe"/>
+                            <constraint firstAttribute="trailing" secondItem="uPY-WD-uFJ" secondAttribute="trailing" id="Zq1-tI-zEn"/>
+                            <constraint firstItem="uPY-WD-uFJ" firstAttribute="top" secondItem="ocd-wp-Rmp" secondAttribute="top" id="bqS-3W-uU7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8i-yp-Rdu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1314" y="1125"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="0vw-ue-XBZ">
             <objects>
-                <viewController storyboardIdentifier="rSHomeViewController" id="w6m-hj-VR8" customClass="rSHomeViewController" customModule="suracare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rSHomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="w6m-hj-VR8" customClass="rSHomeViewController" customModule="suracare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c8Q-Rp-KHG"/>
                         <viewControllerLayoutGuide type="bottom" id="xG6-05-UE8"/>
@@ -37,7 +72,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-B8-Wg6">
-                                <rect key="frame" x="1" y="20" width="318" height="548"/>
+                                <rect key="frame" x="1" y="64" width="318" height="504"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="otY-iN-rKp">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -65,9 +100,29 @@
                             <constraint firstItem="xG6-05-UE8" firstAttribute="top" secondItem="GGg-B8-Wg6" secondAttribute="bottom" id="x6M-XB-kAe"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="cw7-aO-2X2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wxt-U8-x2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2043" y="314"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nyo-In-39x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ooc-hn-cPa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p9A-aI-d3t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="w6m-hj-VR8" kind="relationship" relationship="rootViewController" id="UNn-t3-485"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eG3-5I-rvm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1231" y="314"/>
         </scene>

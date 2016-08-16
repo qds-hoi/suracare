@@ -39,6 +39,7 @@
 		A202BAF81D62E04B00205D32 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADF1D62E04B00205D32 /* ValidationRule.swift */; };
 		A202BAF91D62E04B00205D32 /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAE01D62E04B00205D32 /* ZipCodeRule.swift */; };
 		A202BAFC1D62E0BF00205D32 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A202BAFB1D62E0BF00205D32 /* SWRevealViewController.m */; };
+		A202BB011D62E5C800205D32 /* MainUserFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A202BB001D62E5C800205D32 /* MainUserFlow.storyboard */; };
 		A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21233271D47522800265BE1 /* rSBaseViewModel.swift */; };
 		A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */; };
 		A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */; };
@@ -131,6 +132,7 @@
 		A202BAFA1D62E0BF00205D32 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		A202BAFB1D62E0BF00205D32 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A202BAFD1D62E0EA00205D32 /* suracare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suracare-Bridging-Header.h"; sourceTree = "<group>"; };
+		A202BB001D62E5C800205D32 /* MainUserFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainUserFlow.storyboard; sourceTree = "<group>"; };
 		A21233271D47522800265BE1 /* rSBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseViewModel.swift; sourceTree = "<group>"; };
 		A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 		A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentAnimationController.swift; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 				A288D6F31D409E8700D682BC /* Assets.xcassets */,
 				A288D6ED1D409E8700D682BC /* Main.storyboard */,
 				A288D6F51D409E8700D682BC /* LaunchScreen.storyboard */,
+				A202BB001D62E5C800205D32 /* MainUserFlow.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				A202BA8A1D62DD9200205D32 /* rSHomeCollectionViewCell.xib in Resources */,
 				A28651501D5ACFD8004D8E5A /* News-Gothic-MT-Regular.ttf in Resources */,
 				A286514E1D5ACFD8004D8E5A /* News-Gothic-MT-Bold.ttf in Resources */,
+				A202BB011D62E5C800205D32 /* MainUserFlow.storyboard in Resources */,
 				A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */,
 				A286514F1D5ACFD8004D8E5A /* News-Gothic-MT-Italic.ttf in Resources */,
 				A2C6F92D1D48A03700B430C5 /* rSTripTableViewCell.xib in Resources */,
