@@ -70,6 +70,13 @@
 		A2C6F92C1D48A03700B430C5 /* rSTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F92A1D48A03700B430C5 /* rSTripTableViewCell.swift */; };
 		A2C6F92D1D48A03700B430C5 /* rSTripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */; };
 		A2C6F9321D48A0D400B430C5 /* TripPresentationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */; };
+		A2CD720D1D63070800B0F952 /* rSRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD720C1D63070800B0F952 /* rSRecordViewController.swift */; };
+		A2CD720F1D63072B00B0F952 /* rSPlayAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD720E1D63072B00B0F952 /* rSPlayAudioViewController.swift */; };
+		A2CD72131D6307F500B0F952 /* KMCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD72111D6307F500B0F952 /* KMCircularProgressView.swift */; };
+		A2CD72141D6307F500B0F952 /* KMVoiceRecordHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD72121D6307F500B0F952 /* KMVoiceRecordHUD.swift */; };
+		A2CD72181D630AEF00B0F952 /* KMOverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD72161D630AEF00B0F952 /* KMOverlayPresentationController.swift */; };
+		A2CD72191D630AEF00B0F952 /* KMOverlayTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD72171D630AEF00B0F952 /* KMOverlayTransitioner.swift */; };
+		A2CD721C1D6324D200B0F952 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD721B1D6324D200B0F952 /* KDCircularProgress.swift */; };
 		A2E88E111D470DEA000B8E0D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */; };
 		A2F5DC631D49A6BE008D40A1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */; };
 		A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */; };
@@ -169,6 +176,13 @@
 		A2C6F92A1D48A03700B430C5 /* rSTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSTripTableViewCell.swift; sourceTree = "<group>"; };
 		A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rSTripTableViewCell.xib; sourceTree = "<group>"; };
 		A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPresentationControl.swift; sourceTree = "<group>"; };
+		A2CD720C1D63070800B0F952 /* rSRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSRecordViewController.swift; sourceTree = "<group>"; };
+		A2CD720E1D63072B00B0F952 /* rSPlayAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSPlayAudioViewController.swift; sourceTree = "<group>"; };
+		A2CD72111D6307F500B0F952 /* KMCircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMCircularProgressView.swift; sourceTree = "<group>"; };
+		A2CD72121D6307F500B0F952 /* KMVoiceRecordHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMVoiceRecordHUD.swift; sourceTree = "<group>"; };
+		A2CD72161D630AEF00B0F952 /* KMOverlayPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayPresentationController.swift; sourceTree = "<group>"; };
+		A2CD72171D630AEF00B0F952 /* KMOverlayTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayTransitioner.swift; sourceTree = "<group>"; };
+		A2CD721B1D6324D200B0F952 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -313,6 +327,7 @@
 		A21A3DF31D4B61BE0006C669 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				A2CD72151D630ADD00B0F952 /* KMOverlayPresentation */,
 				A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */,
 				A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */,
 			);
@@ -444,6 +459,8 @@
 		A291318A1D54925900FE3061 /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				A2CD721A1D6324D200B0F952 /* KDCircularProgress */,
+				A2CD72101D6307E900B0F952 /* AudioVisualization */,
 				A291318B1D54927300FE3061 /* UIButton */,
 			);
 			path = CommonUI;
@@ -512,6 +529,8 @@
 		A2C6F9231D489DA200B430C5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2CD720B1D6306ED00B0F952 /* PlayAudioViewController */,
+				A2CD720A1D6306BB00B0F952 /* RecordAudioViewController */,
 				A202BA831D62DD1B00205D32 /* HomeViewController */,
 				A2066B811D5312EB005344B1 /* OnboardViewController */,
 				A2C6F9241D489DC800B430C5 /* ContainerViewController */,
@@ -543,6 +562,48 @@
 				A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */,
 			);
 			path = PresentationControl;
+			sourceTree = "<group>";
+		};
+		A2CD720A1D6306BB00B0F952 /* RecordAudioViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD720C1D63070800B0F952 /* rSRecordViewController.swift */,
+			);
+			path = RecordAudioViewController;
+			sourceTree = "<group>";
+		};
+		A2CD720B1D6306ED00B0F952 /* PlayAudioViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD720E1D63072B00B0F952 /* rSPlayAudioViewController.swift */,
+			);
+			path = PlayAudioViewController;
+			sourceTree = "<group>";
+		};
+		A2CD72101D6307E900B0F952 /* AudioVisualization */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD72111D6307F500B0F952 /* KMCircularProgressView.swift */,
+				A2CD72121D6307F500B0F952 /* KMVoiceRecordHUD.swift */,
+			);
+			path = AudioVisualization;
+			sourceTree = "<group>";
+		};
+		A2CD72151D630ADD00B0F952 /* KMOverlayPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD72161D630AEF00B0F952 /* KMOverlayPresentationController.swift */,
+				A2CD72171D630AEF00B0F952 /* KMOverlayTransitioner.swift */,
+			);
+			path = KMOverlayPresentation;
+			sourceTree = "<group>";
+		};
+		A2CD721A1D6324D200B0F952 /* KDCircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD721B1D6324D200B0F952 /* KDCircularProgress.swift */,
+			);
+			path = KDCircularProgress;
 			sourceTree = "<group>";
 		};
 		A2E88E121D471618000B8E0D /* Library */ = {
@@ -836,13 +897,19 @@
 				A202BA891D62DD9200205D32 /* rSHomeCollectionViewCell.swift in Sources */,
 				A2C6F9261D489DC800B430C5 /* rSContainerViewController.swift in Sources */,
 				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
+				A2CD72141D6307F500B0F952 /* KMVoiceRecordHUD.swift in Sources */,
+				A2CD72181D630AEF00B0F952 /* KMOverlayPresentationController.swift in Sources */,
 				A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */,
+				A2CD720F1D63072B00B0F952 /* rSPlayAudioViewController.swift in Sources */,
 				A202BAF31D62E04B00205D32 /* PasswordRule.swift in Sources */,
 				A202BAEC1D62E04B00205D32 /* FloatRule.swift in Sources */,
 				A2B3CBC21D41F2D80078B63A /* UIColorExtension.swift in Sources */,
+				A2CD72191D630AEF00B0F952 /* KMOverlayTransitioner.swift in Sources */,
 				A202BAED1D62E04B00205D32 /* FullNameRule.swift in Sources */,
 				A2C6F9281D489E0A00B430C5 /* TripViewViewModel.swift in Sources */,
 				A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */,
+				A2CD720D1D63070800B0F952 /* rSRecordViewController.swift in Sources */,
+				A2CD72131D6307F500B0F952 /* KMCircularProgressView.swift in Sources */,
 				A202BAEF1D62E04B00205D32 /* IPV4Rule.swift in Sources */,
 				A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */,
 				A202BAE81D62E04B00205D32 /* CharacterSetRule.swift in Sources */,
@@ -851,6 +918,7 @@
 				A2C6F9221D489CA800B430C5 /* Trip.swift in Sources */,
 				A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */,
 				A202BAE11D62E04B00205D32 /* Validatable.swift in Sources */,
+				A2CD721C1D6324D200B0F952 /* KDCircularProgress.swift in Sources */,
 				A202BAE61D62E04B00205D32 /* AlphaNumericRule.swift in Sources */,
 				A202BAE51D62E04B00205D32 /* ValidatorDictionary.swift in Sources */,
 				A291318F1D549EFB00FE3061 /* rSOnboardUIViewController.swift in Sources */,

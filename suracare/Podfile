@@ -17,6 +17,7 @@ target 'suracare' do
     pod 'FBSDKShareKit'
     pod 'FBSDKLoginKit'
     
+    pod 'TTRangeSlider'
     
     target 'suracareTests' do
         inherit! :search_paths
