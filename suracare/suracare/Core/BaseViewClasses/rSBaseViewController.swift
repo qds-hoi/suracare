@@ -10,9 +10,15 @@ import UIKit
 
 class rSBaseViewController: UIViewController {
 
-    class var reuseId: String {
+    class var uniqueName: String {
         return String.className(self)
     }
+    
+//    let validator = Validator()
+//    var validationRules = [UITextField:ValidationRule]()
+    
+    var currentActiveTextField: UITextField?
+    var currentActiveTextView: UITextView?
     
     override func viewDidLoad() {
         super.viewDidLoad()

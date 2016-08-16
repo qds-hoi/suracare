@@ -10,6 +10,35 @@
 		2F4A0A0E2B3911C282C7A2DA /* Pods_suracare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1544D33811B1D7CB6E5F14 /* Pods_suracare.framework */; };
 		39163BF8F50232E702106209 /* Pods_suracareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAF0A3F32E96FD044FD4618 /* Pods_suracareTests.framework */; };
 		6609A5B24002638AB503BCEE /* Pods_suracareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF35F9D4D7DCF1650859AF /* Pods_suracareUITests.framework */; };
+		A202BA851D62DD3A00205D32 /* rSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BA841D62DD3A00205D32 /* rSHomeViewController.swift */; };
+		A202BA891D62DD9200205D32 /* rSHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BA871D62DD9200205D32 /* rSHomeCollectionViewCell.swift */; };
+		A202BA8A1D62DD9200205D32 /* rSHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A202BA881D62DD9200205D32 /* rSHomeCollectionViewCell.xib */; };
+		A202BAE11D62E04B00205D32 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAC71D62E04A00205D32 /* Validatable.swift */; };
+		A202BAE21D62E04B00205D32 /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAC81D62E04A00205D32 /* ValidationDelegate.swift */; };
+		A202BAE31D62E04B00205D32 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAC91D62E04A00205D32 /* ValidationError.swift */; };
+		A202BAE41D62E04B00205D32 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BACA1D62E04A00205D32 /* Validator.swift */; };
+		A202BAE51D62E04B00205D32 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BACB1D62E04A00205D32 /* ValidatorDictionary.swift */; };
+		A202BAE61D62E04B00205D32 /* AlphaNumericRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BACD1D62E04A00205D32 /* AlphaNumericRule.swift */; };
+		A202BAE71D62E04B00205D32 /* AlphaRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BACE1D62E04A00205D32 /* AlphaRule.swift */; };
+		A202BAE81D62E04B00205D32 /* CharacterSetRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BACF1D62E04A00205D32 /* CharacterSetRule.swift */; };
+		A202BAE91D62E04B00205D32 /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD01D62E04A00205D32 /* ConfirmRule.swift */; };
+		A202BAEA1D62E04B00205D32 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD11D62E04A00205D32 /* EmailRule.swift */; };
+		A202BAEB1D62E04B00205D32 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD21D62E04A00205D32 /* ExactLengthRule.swift */; };
+		A202BAEC1D62E04B00205D32 /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD31D62E04A00205D32 /* FloatRule.swift */; };
+		A202BAED1D62E04B00205D32 /* FullNameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD41D62E04A00205D32 /* FullNameRule.swift */; };
+		A202BAEE1D62E04B00205D32 /* HexColorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD51D62E04A00205D32 /* HexColorRule.swift */; };
+		A202BAEF1D62E04B00205D32 /* IPV4Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD61D62E04A00205D32 /* IPV4Rule.swift */; };
+		A202BAF01D62E04B00205D32 /* ISBNRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD71D62E04A00205D32 /* ISBNRule.swift */; };
+		A202BAF11D62E04B00205D32 /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD81D62E04A00205D32 /* MaxLengthRule.swift */; };
+		A202BAF21D62E04B00205D32 /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAD91D62E04A00205D32 /* MinLengthRule.swift */; };
+		A202BAF31D62E04B00205D32 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADA1D62E04A00205D32 /* PasswordRule.swift */; };
+		A202BAF41D62E04B00205D32 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADB1D62E04A00205D32 /* PhoneNumberRule.swift */; };
+		A202BAF51D62E04B00205D32 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADC1D62E04A00205D32 /* RegexRule.swift */; };
+		A202BAF61D62E04B00205D32 /* RequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADD1D62E04B00205D32 /* RequiredRule.swift */; };
+		A202BAF71D62E04B00205D32 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADE1D62E04B00205D32 /* Rule.swift */; };
+		A202BAF81D62E04B00205D32 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BADF1D62E04B00205D32 /* ValidationRule.swift */; };
+		A202BAF91D62E04B00205D32 /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202BAE01D62E04B00205D32 /* ZipCodeRule.swift */; };
+		A202BAFC1D62E0BF00205D32 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A202BAFB1D62E0BF00205D32 /* SWRevealViewController.m */; };
 		A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21233271D47522800265BE1 /* rSBaseViewModel.swift */; };
 		A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */; };
 		A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */; };
@@ -41,7 +70,6 @@
 		A2C6F92D1D48A03700B430C5 /* rSTripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */; };
 		A2C6F9321D48A0D400B430C5 /* TripPresentationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */; };
 		A2E88E111D470DEA000B8E0D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */; };
-		A2E88E161D471777000B8E0D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E88E151D471777000B8E0D /* SWRevealViewController.m */; };
 		A2F5DC631D49A6BE008D40A1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */; };
 		A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +100,37 @@
 		3E9E07E29635548246840588 /* Pods-suracareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareUITests/Pods-suracareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6F178E7AE571125ACD57BC64 /* Pods-suracareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A202BA841D62DD3A00205D32 /* rSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSHomeViewController.swift; sourceTree = "<group>"; };
+		A202BA871D62DD9200205D32 /* rSHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A202BA881D62DD9200205D32 /* rSHomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rSHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		A202BAC71D62E04A00205D32 /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
+		A202BAC81D62E04A00205D32 /* ValidationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationDelegate.swift; sourceTree = "<group>"; };
+		A202BAC91D62E04A00205D32 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		A202BACA1D62E04A00205D32 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		A202BACB1D62E04A00205D32 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorDictionary.swift; sourceTree = "<group>"; };
+		A202BACD1D62E04A00205D32 /* AlphaNumericRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaNumericRule.swift; sourceTree = "<group>"; };
+		A202BACE1D62E04A00205D32 /* AlphaRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaRule.swift; sourceTree = "<group>"; };
+		A202BACF1D62E04A00205D32 /* CharacterSetRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSetRule.swift; sourceTree = "<group>"; };
+		A202BAD01D62E04A00205D32 /* ConfirmRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRule.swift; sourceTree = "<group>"; };
+		A202BAD11D62E04A00205D32 /* EmailRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailRule.swift; sourceTree = "<group>"; };
+		A202BAD21D62E04A00205D32 /* ExactLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
+		A202BAD31D62E04A00205D32 /* FloatRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRule.swift; sourceTree = "<group>"; };
+		A202BAD41D62E04A00205D32 /* FullNameRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNameRule.swift; sourceTree = "<group>"; };
+		A202BAD51D62E04A00205D32 /* HexColorRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorRule.swift; sourceTree = "<group>"; };
+		A202BAD61D62E04A00205D32 /* IPV4Rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPV4Rule.swift; sourceTree = "<group>"; };
+		A202BAD71D62E04A00205D32 /* ISBNRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISBNRule.swift; sourceTree = "<group>"; };
+		A202BAD81D62E04A00205D32 /* MaxLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxLengthRule.swift; sourceTree = "<group>"; };
+		A202BAD91D62E04A00205D32 /* MinLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
+		A202BADA1D62E04A00205D32 /* PasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRule.swift; sourceTree = "<group>"; };
+		A202BADB1D62E04A00205D32 /* PhoneNumberRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberRule.swift; sourceTree = "<group>"; };
+		A202BADC1D62E04A00205D32 /* RegexRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexRule.swift; sourceTree = "<group>"; };
+		A202BADD1D62E04B00205D32 /* RequiredRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredRule.swift; sourceTree = "<group>"; };
+		A202BADE1D62E04B00205D32 /* Rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		A202BADF1D62E04B00205D32 /* ValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
+		A202BAE01D62E04B00205D32 /* ZipCodeRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeRule.swift; sourceTree = "<group>"; };
+		A202BAFA1D62E0BF00205D32 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A202BAFB1D62E0BF00205D32 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A202BAFD1D62E0EA00205D32 /* suracare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suracare-Bridging-Header.h"; sourceTree = "<group>"; };
 		A21233271D47522800265BE1 /* rSBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rSBaseViewModel.swift; sourceTree = "<group>"; };
 		A21A3DF41D4B61C90006C669 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 		A22BCFCF1D4EE16A000A8FA9 /* PopPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopPresentAnimationController.swift; sourceTree = "<group>"; };
@@ -109,9 +168,6 @@
 		A2C6F92B1D48A03700B430C5 /* rSTripTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rSTripTableViewCell.xib; sourceTree = "<group>"; };
 		A2C6F9311D48A0D400B430C5 /* TripPresentationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPresentationControl.swift; sourceTree = "<group>"; };
 		A2E88E101D470DEA000B8E0D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		A2E88E131D471776000B8E0D /* suracare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suracare-Bridging-Header.h"; sourceTree = "<group>"; };
-		A2E88E141D471777000B8E0D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		A2E88E151D471777000B8E0D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A2F5DC621D49A6BE008D40A1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		A2F5DC641D49AA3B008D40A1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E9B07824614A328D1F0ABC44 /* Pods-suracareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suracareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suracareTests/Pods-suracareTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +222,82 @@
 				66293FE56AA4B81DD3820EF6 /* Pods-suracareUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A202BA831D62DD1B00205D32 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A202BA861D62DD7100205D32 /* HomeCollectionViewCell */,
+				A202BA841D62DD3A00205D32 /* rSHomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		A202BA861D62DD7100205D32 /* HomeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A202BA871D62DD9200205D32 /* rSHomeCollectionViewCell.swift */,
+				A202BA881D62DD9200205D32 /* rSHomeCollectionViewCell.xib */,
+			);
+			path = HomeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A202BA8B1D62DF4700205D32 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A202BAFD1D62E0EA00205D32 /* suracare-Bridging-Header.h */,
+				A202BAFA1D62E0BF00205D32 /* SWRevealViewController.h */,
+				A202BAFB1D62E0BF00205D32 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		A202BAC51D62E04A00205D32 /* SwiftValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A202BAC61D62E04A00205D32 /* Core */,
+				A202BACC1D62E04A00205D32 /* Rules */,
+			);
+			path = SwiftValidator;
+			sourceTree = "<group>";
+		};
+		A202BAC61D62E04A00205D32 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A202BAC71D62E04A00205D32 /* Validatable.swift */,
+				A202BAC81D62E04A00205D32 /* ValidationDelegate.swift */,
+				A202BAC91D62E04A00205D32 /* ValidationError.swift */,
+				A202BACA1D62E04A00205D32 /* Validator.swift */,
+				A202BACB1D62E04A00205D32 /* ValidatorDictionary.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A202BACC1D62E04A00205D32 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				A202BACD1D62E04A00205D32 /* AlphaNumericRule.swift */,
+				A202BACE1D62E04A00205D32 /* AlphaRule.swift */,
+				A202BACF1D62E04A00205D32 /* CharacterSetRule.swift */,
+				A202BAD01D62E04A00205D32 /* ConfirmRule.swift */,
+				A202BAD11D62E04A00205D32 /* EmailRule.swift */,
+				A202BAD21D62E04A00205D32 /* ExactLengthRule.swift */,
+				A202BAD31D62E04A00205D32 /* FloatRule.swift */,
+				A202BAD41D62E04A00205D32 /* FullNameRule.swift */,
+				A202BAD51D62E04A00205D32 /* HexColorRule.swift */,
+				A202BAD61D62E04A00205D32 /* IPV4Rule.swift */,
+				A202BAD71D62E04A00205D32 /* ISBNRule.swift */,
+				A202BAD81D62E04A00205D32 /* MaxLengthRule.swift */,
+				A202BAD91D62E04A00205D32 /* MinLengthRule.swift */,
+				A202BADA1D62E04A00205D32 /* PasswordRule.swift */,
+				A202BADB1D62E04A00205D32 /* PhoneNumberRule.swift */,
+				A202BADC1D62E04A00205D32 /* RegexRule.swift */,
+				A202BADD1D62E04B00205D32 /* RequiredRule.swift */,
+				A202BADE1D62E04B00205D32 /* Rule.swift */,
+				A202BADF1D62E04B00205D32 /* ValidationRule.swift */,
+				A202BAE01D62E04B00205D32 /* ZipCodeRule.swift */,
+			);
+			path = Rules;
 			sourceTree = "<group>";
 		};
 		A2066B811D5312EB005344B1 /* OnboardViewController */ = {
@@ -377,6 +509,7 @@
 		A2C6F9231D489DA200B430C5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A202BA831D62DD1B00205D32 /* HomeViewController */,
 				A2066B811D5312EB005344B1 /* OnboardViewController */,
 				A2C6F9241D489DC800B430C5 /* ContainerViewController */,
 			);
@@ -412,9 +545,8 @@
 		A2E88E121D471618000B8E0D /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				A2E88E141D471777000B8E0D /* SWRevealViewController.h */,
-				A2E88E151D471777000B8E0D /* SWRevealViewController.m */,
-				A2E88E131D471776000B8E0D /* suracare-Bridging-Header.h */,
+				A202BAC51D62E04A00205D32 /* SwiftValidator */,
+				A202BA8B1D62DF4700205D32 /* SWRevealViewController */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -540,6 +672,7 @@
 			files = (
 				A288D6F71D409E8700D682BC /* LaunchScreen.storyboard in Resources */,
 				A288D6F41D409E8700D682BC /* Assets.xcassets in Resources */,
+				A202BA8A1D62DD9200205D32 /* rSHomeCollectionViewCell.xib in Resources */,
 				A28651501D5ACFD8004D8E5A /* News-Gothic-MT-Regular.ttf in Resources */,
 				A286514E1D5ACFD8004D8E5A /* News-Gothic-MT-Bold.ttf in Resources */,
 				A288D6EF1D409E8700D682BC /* Main.storyboard in Resources */,
@@ -693,30 +826,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B3CBCF1D42004B0078B63A /* rSBaseTableViewCell.swift in Sources */,
+				A202BAF21D62E04B00205D32 /* MinLengthRule.swift in Sources */,
+				A202BAF91D62E04B00205D32 /* ZipCodeRule.swift in Sources */,
+				A202BAE21D62E04B00205D32 /* ValidationDelegate.swift in Sources */,
+				A202BA891D62DD9200205D32 /* rSHomeCollectionViewCell.swift in Sources */,
 				A2C6F9261D489DC800B430C5 /* rSContainerViewController.swift in Sources */,
 				A288D7221D40A02600D682BC /* rSAppModel.swift in Sources */,
 				A21A3DF51D4B61C90006C669 /* FlipPresentAnimationController.swift in Sources */,
+				A202BAF31D62E04B00205D32 /* PasswordRule.swift in Sources */,
+				A202BAEC1D62E04B00205D32 /* FloatRule.swift in Sources */,
 				A2B3CBC21D41F2D80078B63A /* UIColorExtension.swift in Sources */,
+				A202BAED1D62E04B00205D32 /* FullNameRule.swift in Sources */,
 				A2C6F9281D489E0A00B430C5 /* TripViewViewModel.swift in Sources */,
 				A2F5DC651D49AA3B008D40A1 /* UIViewControllerExtension.swift in Sources */,
+				A202BAEF1D62E04B00205D32 /* IPV4Rule.swift in Sources */,
 				A26B76F11D40C71900900AC6 /* rSUserModel.swift in Sources */,
+				A202BAE81D62E04B00205D32 /* CharacterSetRule.swift in Sources */,
+				A202BAE31D62E04B00205D32 /* ValidationError.swift in Sources */,
+				A202BA851D62DD3A00205D32 /* rSHomeViewController.swift in Sources */,
 				A2C6F9221D489CA800B430C5 /* Trip.swift in Sources */,
 				A288D6EA1D409E8700D682BC /* AppDelegate.swift in Sources */,
+				A202BAE11D62E04B00205D32 /* Validatable.swift in Sources */,
+				A202BAE61D62E04B00205D32 /* AlphaNumericRule.swift in Sources */,
+				A202BAE51D62E04B00205D32 /* ValidatorDictionary.swift in Sources */,
 				A291318F1D549EFB00FE3061 /* rSOnboardUIViewController.swift in Sources */,
 				A288D7241D40AA1400D682BC /* rSConstant.swift in Sources */,
 				A2C6F92C1D48A03700B430C5 /* rSTripTableViewCell.swift in Sources */,
-				A2E88E161D471777000B8E0D /* SWRevealViewController.m in Sources */,
+				A202BAEE1D62E04B00205D32 /* HexColorRule.swift in Sources */,
+				A202BAF11D62E04B00205D32 /* MaxLengthRule.swift in Sources */,
 				A2B3CBCD1D4200390078B63A /* rSBaseViewController.swift in Sources */,
 				A2B3CBD11D4200DF0078B63A /* StringExtension.swift in Sources */,
+				A202BAF71D62E04B00205D32 /* Rule.swift in Sources */,
 				A2E88E111D470DEA000B8E0D /* UIViewExtension.swift in Sources */,
 				A288D6F21D409E8700D682BC /* suracare.xcdatamodeld in Sources */,
 				A2B3CBCB1D41FEFB0078B63A /* rSViewModelServicesDelegate.swift in Sources */,
 				A2F5DC631D49A6BE008D40A1 /* NSDateExtension.swift in Sources */,
 				A21233281D47522800265BE1 /* rSBaseViewModel.swift in Sources */,
 				A2C6F9321D48A0D400B430C5 /* TripPresentationControl.swift in Sources */,
+				A202BAE91D62E04B00205D32 /* ConfirmRule.swift in Sources */,
+				A202BAFC1D62E0BF00205D32 /* SWRevealViewController.m in Sources */,
 				A2B3CBC91D41FEA90078B63A /* rSViewModelProtocol.swift in Sources */,
+				A202BAF01D62E04B00205D32 /* ISBNRule.swift in Sources */,
+				A202BAE71D62E04B00205D32 /* AlphaRule.swift in Sources */,
 				A291318D1D54928D00FE3061 /* RoundRectButton.swift in Sources */,
 				A22BCFD01D4EE16A000A8FA9 /* PopPresentAnimationController.swift in Sources */,
+				A202BAEA1D62E04B00205D32 /* EmailRule.swift in Sources */,
+				A202BAF81D62E04B00205D32 /* ValidationRule.swift in Sources */,
+				A202BAF41D62E04B00205D32 /* PhoneNumberRule.swift in Sources */,
+				A202BAF61D62E04B00205D32 /* RequiredRule.swift in Sources */,
+				A202BAF51D62E04B00205D32 /* RegexRule.swift in Sources */,
+				A202BAE41D62E04B00205D32 /* Validator.swift in Sources */,
+				A202BAEB1D62E04B00205D32 /* ExactLengthRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,7 +1026,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarrain.suracare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/suracare-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/SWRevealViewController/suracare-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -881,7 +1041,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarrain.suracare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/suracare-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "suracare/Core/Library/SWRevealViewController/suracare-Bridging-Header.h";
 			};
 			name = Release;
 		};

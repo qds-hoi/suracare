@@ -36,4 +36,11 @@ extension UIView {
             return nil
         }
     }
+    
+    func makeCircleBound(borderColor: UIColor = UIColor.clearColor()) {
+        self.layer.cornerRadius = self.bounds.width/2
+        self.layer.borderWidth = 1
+        self.layer.borderColor = borderColor.CGColor
+        self.clipsToBounds = true
+    }
 }
